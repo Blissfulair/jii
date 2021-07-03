@@ -58,7 +58,7 @@ color: #000000;
         position: absolute;
         top: 195px;
         display: flex;
-        margin-right: 30%;
+        margin-right: 50%;
         /* width: 50%; */
         
     }
@@ -97,13 +97,4 @@ color: #000000;
     }
 
 }
-@media screen and (max-width:600px) {
-    .main-container .ise .iseimg{
-        position: absolute;
-        top: 195px;
-        display: flex;
-        margin-right: 25%;
-        /* width: 50%; */
-        
-    }
-}
+
