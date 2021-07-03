@@ -1,12 +1,14 @@
 import React, {Component} from "react"
-import Header from "../component/header"
 import Top from "../component/top"
+import Header from "../component/header"
+import Main from "../component/main"
 class Home extends Component{
     render(){
         return(
             <>
             <Top />
             <Header />
+            <Main />
             <h1>this is the home page</h1>
             </>
         )
