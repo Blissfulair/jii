@@ -23,9 +23,10 @@ class Main extends Component{
                         <h1>Do You Want to know <br/> JII ? </h1>
                         <button>Click Here <img src = {icon} alt = "Arrow"/></button>
                     </div>
-                    <div className = "ise">
+                    <div className = "ises">
                         <img src = {ise} alt = "ise" className = "iseimg" />
                     </div>
+                    
                     
                     
                 </div>

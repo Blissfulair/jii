@@ -46,21 +46,34 @@ color: #000000;
     
 }
 
-.main-container .ise .iseimg{
+.main-container .ises .iseimg{
     position: absolute;
+    /* display: none; */
     top: 195px;
+    display: flex;
     right: 0px;
     
 }
 
 @media screen and (max-width:767px) {
-    .main-container .ise .iseimg{
+
+    .main-container .ises{
         position: absolute;
+        background-color: rgb(148, 148, 167);
+        height: 200px;
         top: 195px;
+        width: 100%;
+        display: flex;  
+        justify-content: center; 
+        align-items: center;
+    }
+    .main-container .ises .iseimg{
+        position: absolute;
+        top: 0px;
+        right: inherit;
         display: flex;
-        margin-right: 50%;
-        /* width: 50%; */
-        
+        align-content: center;
+           
     }
     .main-container .main{
         width: 100%;
