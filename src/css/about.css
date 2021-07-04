@@ -52,15 +52,16 @@
 
 @media screen and (max-width:767px){
     .about .aboutcontent h1{
-        font-weight: 600;
-        font-size: 38px;
+        /* margin-top: 100px; */
+        font-weight: 400;
+        font-size: 30px;
         /* line-height: 90%; */
         
     }
     .about .aboutcontent p{
         /* Rt. Hon. Jude Ise-Idehen is a member of the House of Representatives, Nigeria. He has a duty to represent his constituent and also serve the nation as a member of the House. */
         font-weight: 500;
-        font-size: 19px;
+        font-size: 15px;
         margin-top: 40px;
         /* line-height: 30px;
         text-align: center;
