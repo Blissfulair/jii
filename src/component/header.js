@@ -22,12 +22,12 @@ class Header extends Component{
     render (){
         return(
             <>
-                <header>
+                <header className ="header">
                     <div className="logo">
                         <img src={logo } alt="LOGO" />
                         <span>
                             <p>Hon Jude</p>
-                            <p> Ise - Idehen</p>
+                            <p> Ise - Idehen's</p>
                             <p>Forum</p>
                         </span>
                     </div>

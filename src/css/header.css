@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-header{
+.header{
     position: relative;
     width: 100%;
     height: 68px;
@@ -11,6 +11,10 @@ header{
     align-items: center;
     justify-content: space-between;
     
+}
+.header .sticky{
+    top: 0;
+    position: fixed;
 }
 .logo{
     margin-left: 100px;
