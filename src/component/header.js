@@ -28,7 +28,7 @@ class Header extends Component{
                         <img src={logo } alt="LOGO" />
                         <span>
                             <p>Hon Jude</p>
-                            <p> Ise - Idehen's</p>
+                            <p> Ise - Idehen</p>
                             <p>Forum</p>
                         </span>
                     </div>
