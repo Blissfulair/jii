@@ -18,7 +18,7 @@ class Footer extends Component{
                                         <a href="/" className="aboutus">About</a>
                                     </li>
                                     <li>
-                                        <a href="/"className="project" >Project</a>
+                                        <a href="/"className="proj" >Projects</a>
                                     </li>
                                     <li>
                                         <a href="/"className="contact" >Contact us</a>
