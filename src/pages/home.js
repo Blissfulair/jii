@@ -17,8 +17,11 @@ class Home extends Component{
             <Main />
             <About />
             <Project />
+<<<<<<< HEAD
              <Contact />
             <Footer />
+=======
+>>>>>>> 8402b012ab1b40b86bc8ad807878315ccd768e55
             </>
            
         )
