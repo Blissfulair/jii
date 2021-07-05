@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.footer{
+    position: absolute;
+    display: flex;
+    justify-content: space-betweens;
+    width: 100%;
+    height: 268px;
+    
+    background: #F9FCEA;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 60px;
+    left: 60px;
+}
+.jude{
+    position: absolute;
+    width: 100px;
+    height: 77px;
+    top: 80px;
+    left: 170px;
+    
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #088014;
+}
+.quick{
+    position: absolute;
+    width: 200px;
+    height: 18px;
+    top: 60px;
+    left: 600px;
+    
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #088014;
+}
+nav ul{
+    position: absolute;
+    text-decoration: none;
+    top: 100px;
+}
+nav ul li a{
+position: absolute;
+width: 100px;
+height: 20px;
+left: 620px;
+text-decoration: none;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+color: #93DA8D;
+ }
+.newsletter{
+position: absolute;
+width: 250px;
+height: 18px;
+top: 60px;
+left: 980px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height */
+text-decoration-line: underline;
+color: #088014;
+
+}
+.formnewsletter{
+    top: 80px;
+    left: 900px;
+}
+.Emailaddress{
+position: absolute;
+width: 200px;
+height: 30px;
+top: 90px;
+left: 1000px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+color: #a7aaa7;
+
+}
+.subscribe{
+position: absolute;
+width: 200px;
+height: 30px;
+top: 150px;
+left: 1000px;
+color: #ffffff;
+background: #088014;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+border: none;
+}
+.greenfooter{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    top: 1150px;
+    background: #088014;
+}
+.greenfooter span{
+position: absolute;
+
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FCF9F9;
+
+}
+
+@media screen and (max-width:767px){
+    .footer{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        height: 300px;
+        flex-direction: column-reverse;
+        background: #F9FCEA;
+    }
+    .logo{
+        position: absolute;
+        display: flex;
+        width: 80px;
+        height: 80px;
+        top: 50px;
+        left: 20px;
+    }
+    .jude{
+        position: absolute;
+        display: flex;
+        width: 100px;
+        height: 77px;
+        top: 50px;
+        left: 110px;
+        
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 23px;
+        
+        color: #088014;
+    }
+    .quick{
+        position: absolute;
+        display: flex;
+        width: 200px;
+        height: 18px;
+        top: 50px;
+        left: 330px;
+        
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        /* identical to box height */
+        text-decoration-line: underline;
+        color: #088014;
+    }
+nav ul{
+    position: absolute;
+    text-decoration: none;
+    top: 70px;
+    
+}
+nav ul li a{
+width: 100px;
+height: 20px;
+left: 350px;
+text-decoration: none;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height */
+color: #93DA8D;
+ }
+ .newsletter{
+position: absolute;
+justify-content:center;
+text-align:center;
+width: 250px;
+height: 18px;
+top: 160px;
+left: 100px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+text-decoration-line: underline;
+color: #088014;
+
+}
+.formnewsletter{
+    top: 80px;
+    left: 300px;
+}
+.Emailaddress{
+position: absolute;
+width: 200px;
+height: 30px;
+top: 180px;
+left: 130px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+color: #a7aaa7;
+
+}
+.subscribe{
+position: absolute;
+width: 150px;
+height: 30px;
+top: 220px;
+left: 160px;
+color: #ffffff;
+background: #088014;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+border: none;
+}
+.greenfooter{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+   height: 40px;
+    top: 800px;
+    background: #088014;
+}
+.greenfooter span{
+position: absolute;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FCF9F9;
+
+}
+}
+    
