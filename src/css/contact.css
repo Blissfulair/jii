@@ -139,7 +139,7 @@ border-radius: 3px;
 border: none;
 }
 @media screen and (max-width:767px){
-    .greenbox{
+.greenbox{
 position: relative;
 display:flex;
 width: 100%;
@@ -147,6 +147,7 @@ height: 885px;
 background: url("../images/hon.png") no-repeat;
 background-size:cover;
 background-position:top;
+top:3px
 
 }
 .greenbox::before{
