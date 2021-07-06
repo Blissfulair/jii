@@ -7,9 +7,9 @@ class Footer extends Component{
             <>
             <footer>
                 <div className="footer">
-                <img src ={logo} className="logo" alt ="logo"/>
-                <h3 className="jude">Hon. Jude Ise-Idehen’s Forum</h3>
-                <h4 className="quick">Quick Links</h4>
+                    <img src ={logo} className="logo" alt ="logo"/>
+                    <h3 className="jude">Hon. Jude Ise-Idehen’s Forum</h3>
+                    <h4 className="quick">Quick Links</h4>
                               <ul>
                                     <li>
                                         <a href="/"className="home" >Home</a>
@@ -32,9 +32,9 @@ class Footer extends Component{
                             </form>
                             </div>
                 </div>
-            <div className="greenfooter">
+                <div className="greenfooter">
                 <span>Copyright &copy; 2021 </span>
-            </div>
+                </div>
             </footer>
             </>
         )
