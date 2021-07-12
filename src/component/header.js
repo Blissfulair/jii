@@ -15,8 +15,10 @@ class Header extends Component{
         let mobileMenu = document.getElementsByClassName("mobile-menu")[0]
         if(openMenu){
             mobileMenu.style.transform = "translateX(-100%)"
+            // mobileMenu.style.display = "none"
         }else{
-            mobileMenu.style.transform = "translateX(0)"
+            mobileMenu.style.transform = "translateX(0)" 
+            
         }        
             openMenu = !openMenu
     }
