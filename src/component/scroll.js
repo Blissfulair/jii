@@ -24,6 +24,7 @@ class Scroll extends Component{
             console.log("thank you")
             document.getElementsByClassName("top")[0].style.top = "-80px"
             document.getElementsByTagName("header")[0].style.top = "0px"
+            document.getElementsByTagName("header")[0].style.position = "sticky"
             document.getElementsByTagName("header")[0].style.backgroundColor = "black"
         }
     }
