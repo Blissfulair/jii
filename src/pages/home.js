@@ -1,4 +1,8 @@
 import React, {Component} from "react"
+
+import Contact from "../component/contact"
+import Footer from "../component/footer"
+
 import Top from "../component/top"
 import Header from "../component/header"
 import Main from "../component/main"
@@ -15,7 +19,10 @@ class Home extends Component{
             <Main />
             <About />
             <Project />
+            <Contact />
+            <Footer />
             </>
+           
         )
     }
 }
