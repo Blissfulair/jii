@@ -8,20 +8,20 @@ class Scroll extends Component{
         }
     }
     componentDidMount = () =>{
-        window.addEventListener('scroll', this.onScrollUp, true)
+        window.addEventListener('scroll', this.onScrollUp)
     }
-    componentWillUnmount = () =>{
-        window.removeEventListener('scroll', this.onScrollUp)
-    }
+    // componentWillUnmount = () =>{
+    //     window.removeEventListener('scroll', this.onScrollUp)
+    // }
 
     onScrollUp = () =>{
         if (window.scrollY < 16){
             document.getElementsByClassName("top")[0].style.top = "0px"
             document.getElementsByTagName("header")[0].style.top = "85px"
             document.getElementsByTagName("header")[0].style.backgroundColor = "rgba(0, 0, 0, 0.5)"
-            console.log("Why now")
+            // console.log("Why now")
         }else{
-            console.log("thank you")
+            // console.log("thank you")
             document.getElementsByClassName("top")[0].style.top = "-80px"
             document.getElementsByTagName("header")[0].style.top = "0px"
             document.getElementsByTagName("header")[0].style.position = "sticky"
